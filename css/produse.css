@@ -1,0 +1,72 @@
+.card {
+  margin-bottom: 10px; 
+}
+.custom-card {
+  width: 250px; 
+  height: auto; 
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.btn {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #23272b;
+}
+
+
+
+  .float-start {
+    float: left;
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+#searchProducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#searchProducts .card {
+  width: 23%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  color: #506d8a;
+}
+
+#searchMessage {
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;
+}
+
+.content {
+  flex: 1; 
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0; 
+}

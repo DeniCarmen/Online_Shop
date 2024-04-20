@@ -1,0 +1,154 @@
+
+  header {
+    text-align: center;
+    padding: 15px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+ header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+  main {
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gallery {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    transition: transform 0.5s ease;
+  }
+  
+  .video {
+    text-align: center;
+  }
+  
+  .iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+  
+
+
+  .awesome-section {
+    padding: 0px ;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.awesome-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.awesome-text {
+    font-size: 60px;
+    color: #333333;
+    font-weight: italic;
+    
+}
+
+
+.culori-container {
+    position: relative;
+    text-align: right; 
+    max-width: 500px;
+}
+
+.culori-slide {
+    width: 800px; 
+    height: 800px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+
+#prevBtn,
+#nextBtn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    display: inline-block; 
+}
+
+.overlay-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right; 
+}
+.container img {
+    width: 100%; 
+}
+.left-content, .right-content {
+  flex: 1;
+}
+
+.left-content img, .right-content img {
+  max-width: 100%;
+  height: auto;}
+ 
+
+.left-content p {
+  text-align: right;
+  margin-right: 10px; }
+
+  
+.right-content p {
+  text-align: left;
+  margin-left: 10px; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;
+}
+
+.content {
+  flex: 1; 
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
